@@ -1,0 +1,7 @@
+mutation DeleteCat($id: String!) {
+    deleteCat(id: $id) {
+        id
+        name
+        age
+    }
+}

@@ -1,0 +1,7 @@
+mutation UpdateCat($updateCatInput: UpdateCatInput) {
+    updateCat(updateCatInput: $updateCatInput) {
+        id
+        name
+        age
+    }
+}

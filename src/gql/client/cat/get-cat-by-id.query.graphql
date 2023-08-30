@@ -1,0 +1,5 @@
+query GetCatById($id: String!) {
+    cat(id: $id) {
+        ...CatFragment
+    }
+}
