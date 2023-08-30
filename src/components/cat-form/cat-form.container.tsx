@@ -31,7 +31,6 @@ const CatFormContainer: FC<CatFormContainerProps> = ({ initialValue, onFinish })
         //                         fragment NewCat on Cat {
         //                             id
         //                             name
-        //                             type
         //                         }
         //                     `,
         //                 });
