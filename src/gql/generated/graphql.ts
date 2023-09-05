@@ -22,7 +22,6 @@ export type Cat = {
   age?: Maybe<Scalars['Int']['output']>;
   id?: Maybe<Scalars['String']['output']>;
   name?: Maybe<Scalars['String']['output']>;
-  owner?: Maybe<Owner>;
 };
 
 export type CreateCatInput = {
@@ -50,13 +49,6 @@ export type MutationDeleteCatArgs = {
 
 export type MutationUpdateCatArgs = {
   updateCatInput?: InputMaybe<UpdateCatInput>;
-};
-
-export type Owner = {
-  __typename?: 'Owner';
-  age?: Maybe<Scalars['Int']['output']>;
-  id: Scalars['Int']['output'];
-  name: Scalars['String']['output'];
 };
 
 export type Query = {
